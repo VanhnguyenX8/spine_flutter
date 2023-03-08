@@ -1,0 +1,20 @@
+{ "skeleton": { "images": "C:/Users/wlyca/OneDrive/Desktop/U2/car/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 92", "bone": "root", "attachment": "Layer 92" },
+	{ "name": "Layer 93", "bone": "root", "attachment": "Layer 93" }
+],
+"skins": {
+	"default": {
+		"Layer 92": {
+			"Layer 92": { "x": 213.5, "y": -157, "width": 203, "height": 134 }
+		},
+		"Layer 93": {
+			"Layer 93": { "x": 236, "y": -124, "width": 52, "height": 34 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

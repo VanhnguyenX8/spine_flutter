@@ -9,13 +9,10 @@ void main() => runApp(const MyApp());
 
 /// All animations. Format: `model_name: defaultAnimation`.
 const Map<String, String> all = <String, String>{
-  'cauldron': 'idle',
-  'fox': 'idle',
-  'girl_and_whale_polygons': 'idle',
-  'girl_and_whale_rectangles': 'idle',
-  'owl': 'idle',
-  'raptor': 'walk',
-  'spineboy': 'walk',
+  'cake': 'idle',
+  'car': 'idle',
+  'cat': 'idle',
+  'cup': 'idle',
 };
 
 class MyApp extends StatelessWidget {
@@ -71,9 +68,9 @@ class MyHomePageState extends State<MyHomePage> {
       alignment: Alignment.center,
       fit: BoxFit.contain,
       playState: PlayState.playing,
-      debugRendering: false,
+      debugRendering: true,
       triangleRendering: true,
-      //frameSizeMultiplier: 0.3,
+      frameSizeMultiplier: 3,
     );
 
     final List<Widget> models = <Widget>[];
@@ -138,11 +135,11 @@ class MyHomePageState extends State<MyHomePage> {
 
     return true;
   }
-
+// String url = 'U10-L3-1-b-girl_5';
   Future<Set<String>> loadAnimations() async {
     final String skeletonFile = '$name.json';
     final String s =
-        await rootBundle.loadString('$pathPrefix$name/$skeletonFile');
+        await rootBundle.loadString('$pathPrefix$name/$name/$skeletonFile');
     final Map<String, dynamic> data = json.decode(s);
 
     return ((data['animations'] ?? <String, dynamic>{}) as Map<String, dynamic>)
@@ -151,5 +148,5 @@ class MyHomePageState extends State<MyHomePage> {
   }
 
   Future<SkeletonAnimation> loadSkeleton() async =>
-      SkeletonAnimation.createWithFiles(name, pathBase: pathPrefix);
+      SkeletonAnimation.createWithFiles(name, pathBase: '$pathPrefix$name/');
 }

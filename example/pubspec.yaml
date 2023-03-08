@@ -24,10 +24,20 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/cauldron/
-    - assets/fox/
-    - assets/girl_and_whale_polygons/
-    - assets/girl_and_whale_rectangles/
-    - assets/owl/
-    - assets/raptor/
-    - assets/spineboy/
+    - assets/
+    - assets/cake/
+    - assets/cake/cake/
+    - assets/cake/images/
+    - assets/car/
+    - assets/car/car/
+    - assets/car/images/
+    - assets/cat/
+    - assets/cat/cat/
+    - assets/cat/images/
+    - assets/cup/
+    - assets/cup/cup/
+    - assets/cup/images/
+
+    - assets/U10-L3-1-b-girl_5/
+    - assets/U10-L3-1-b-girl_5/Girl/
+    - assets/U10-L3-1-b-girl_5/images/

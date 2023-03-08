@@ -1,0 +1,16 @@
+{ "skeleton": { "images": "C:/Users/wlyca/OneDrive/Desktop/U2/cake/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 125", "bone": "root", "attachment": "Layer 125" }
+],
+"skins": {
+	"default": {
+		"Layer 125": {
+			"Layer 125": { "x": 162.5, "y": -142.5, "width": 197, "height": 183 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

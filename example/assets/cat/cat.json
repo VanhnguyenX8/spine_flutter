@@ -1,0 +1,20 @@
+{ "skeleton": { "images": "C:/Users/wlyca/OneDrive/Desktop/U2/cat/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 40", "bone": "root", "attachment": "Layer 40" },
+	{ "name": "Layer 41", "bone": "root", "attachment": "Layer 41" }
+],
+"skins": {
+	"default": {
+		"Layer 40": {
+			"Layer 40": { "x": 287.5, "y": -279, "width": 371, "height": 396 }
+		},
+		"Layer 41": {
+			"Layer 41": { "x": 369, "y": -222.5, "width": 240, "height": 235 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

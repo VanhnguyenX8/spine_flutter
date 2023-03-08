@@ -1,0 +1,16 @@
+{ "skeleton": { "images": "C:/Users/wlyca/OneDrive/Desktop/U2/cup/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 110", "bone": "root", "attachment": "Layer 110" }
+],
+"skins": {
+	"default": {
+		"Layer 110": {
+			"Layer 110": { "x": 114, "y": -127.5, "width": 166, "height": 165 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

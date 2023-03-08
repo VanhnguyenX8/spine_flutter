@@ -1,0 +1,181 @@
+
+Girl.png
+size: 1299,388
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BD
+  rotate: true
+  xy: 445, 84
+  size: 302, 459
+  orig: 302, 459
+  offset: 0, 0
+  index: -1
+Ban tay 1
+  rotate: false
+  xy: 1141, 19
+  size: 92, 103
+  orig: 92, 103
+  offset: 0, 0
+  index: -1
+Box chat
+  rotate: true
+  xy: 2, 6
+  size: 380, 441
+  orig: 380, 441
+  offset: 0, 0
+  index: -1
+ban tay 2
+  rotate: false
+  xy: 1149, 226
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+bap tay 2
+  rotate: false
+  xy: 639, 3
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+canh tay 1
+  rotate: true
+  xy: 1149, 124
+  size: 100, 138
+  orig: 100, 172
+  offset: 0, 34
+  index: -1
+con nguoi
+  rotate: false
+  xy: 718, 42
+  size: 113, 40
+  orig: 113, 40
+  offset: 0, 0
+  index: -1
+mat 2
+  rotate: false
+  xy: 906, 68
+  size: 138, 83
+  orig: 138, 83
+  offset: 0, 0
+  index: -1
+mat 3
+  rotate: false
+  xy: 445, 9
+  size: 138, 73
+  orig: 138, 73
+  offset: 0, 0
+  index: -1
+mat goc
+  rotate: true
+  xy: 1046, 13
+  size: 138, 93
+  orig: 138, 93
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 585, 2
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+mouth_a_aa_uh
+  rotate: true
+  xy: 1235, 49
+  size: 73, 36
+  orig: 73, 36
+  offset: 0, 0
+  index: -1
+mouth_ax_i_ii
+  rotate: true
+  xy: 1273, 43
+  size: 79, 24
+  orig: 79, 24
+  offset: 0, 0
+  index: -1
+mouth_ei
+  rotate: false
+  xy: 973, 43
+  size: 64, 23
+  orig: 64, 23
+  offset: 0, 0
+  index: -1
+mouth_f_v
+  rotate: false
+  xy: 973, 25
+  size: 60, 16
+  orig: 60, 16
+  offset: 0, 0
+  index: -1
+mouth_l
+  rotate: false
+  xy: 833, 53
+  size: 62, 29
+  orig: 62, 29
+  offset: 0, 0
+  index: -1
+mouth_n_k_g_ng_y_r
+  rotate: false
+  xy: 718, 6
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+mouth_o
+  rotate: true
+  xy: 943, 12
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+mouth_p_b_m
+  rotate: false
+  xy: 1141, 5
+  size: 60, 12
+  orig: 60, 12
+  offset: 0, 0
+  index: -1
+mouth_sh_zh_ch_jh
+  rotate: false
+  xy: 868, 12
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+mouth_sil
+  rotate: false
+  xy: 833, 38
+  size: 61, 13
+  orig: 61, 13
+  offset: 0, 0
+  index: -1
+mouth_t_d_s_z
+  rotate: false
+  xy: 897, 37
+  size: 74, 29
+  orig: 74, 29
+  offset: 0, 0
+  index: -1
+mouth_t_d_s_z--w_oo_uu_o_u
+  rotate: false
+  xy: 792, 5
+  size: 74, 31
+  orig: 74, 31
+  offset: 0, 0
+  index: -1
+mouth_w_oo_uu_u
+  rotate: true
+  xy: 1235, 25
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: false
+  xy: 906, 153
+  size: 241, 233
+  orig: 241, 343
+  offset: 0, 0
+  index: -1

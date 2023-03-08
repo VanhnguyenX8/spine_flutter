@@ -1,0 +1,87 @@
+{
+"skeleton": {
+	"hash": "MwPjh+pJIi9Cv0dKkWy2IlIoUm0",
+	"spine": "3.8.55",
+	"x": -74.42,
+	"y": 33.79,
+	"width": 166,
+	"height": 165,
+	"images": "./images/",
+	"audio": "C:/Users/wlyca/OneDrive/Desktop/U2/cup"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "x": 4.25, "y": 122.69 },
+	{ "name": "Layer 110", "parent": "root", "length": 96.62, "rotation": 84.83, "x": -14.76, "y": 62.89 }
+],
+"slots": [
+	{ "name": "Layer 110", "bone": "Layer 110", "attachment": "Layer 110" },
+	{ "name": "1", "bone": "1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 110": {
+				"Layer 110": { "x": 55.29, "y": -18.43, "rotation": -84.83, "width": 166, "height": 165 }
+			},
+			"1": {
+				"1": { "x": -2.71, "y": -0.06, "width": 91, "height": 88 },
+				"2": { "x": -2.71, "y": -0.06, "width": 158, "height": 157 },
+				"3": { "x": -2.71, "y": -0.06, "width": 262, "height": 262 },
+				"4": { "x": -2.71, "y": -0.06, "width": 342, "height": 342 },
+				"5": { "x": -2.71, "y": -0.06, "width": 492, "height": 493 },
+				"6": { "x": -2.71, "y": -0.06, "width": 620, "height": 625 },
+				"7": { "x": -2.71, "y": -0.06, "width": 921, "height": 935 },
+				"8": { "x": -2.71, "y": -0.06, "width": 1062, "height": 1101 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {},
+	"touch": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0.1333, "name": "1" },
+					{ "time": 0.2, "name": "2" },
+					{ "time": 0.2667, "name": "3" },
+					{ "time": 0.3333, "name": "4" },
+					{ "time": 0.4, "name": "5" },
+					{ "time": 0.4667, "name": "6" },
+					{ "time": 0.5333, "name": "7" },
+					{ "time": 0.6, "name": "8" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Layer 110": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "angle": 6.26, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "angle": -2.68, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "x": -2.85, "y": 15.39 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.418, "y": 1.418 }
+				]
+			},
+			"1": {
+				"translate": [
+					{ "x": -2.85, "y": 23.94 }
+				],
+				"scale": [
+					{ "x": 0.482, "y": 0.482 }
+				]
+			}
+		}
+	}
+}
+}
