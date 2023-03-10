@@ -13,6 +13,8 @@ const Map<String, String> all = <String, String>{
   'car': 'idle',
   'cat': 'idle',
   'cup': 'idle',
+  'TA3_U4_Sing':'idle',
+  'BeBill':'idle',
 };
 
 class MyApp extends StatelessWidget {
@@ -77,7 +79,7 @@ class MyHomePageState extends State<MyHomePage> {
     for (final String model in all.keys) {
       models.add(
         TextButton(
-          child: Text(model.toUpperCase()),
+          child: Text(model),
           onPressed: () async {
             name = model;
             await load();
